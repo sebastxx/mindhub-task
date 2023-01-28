@@ -1,0 +1,105 @@
+body{
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-image: url("../assets/img/header-1.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 75px;
+}
+
+h1{
+    font-size: 2.5em;
+    text-shadow: #000000 2px 2px;
+    margin: 10px;
+    color: #f6dc2e;
+    position: absolute;
+    top: -70px;
+}
+
+h2{
+    text-align: center;
+    background: #f6dc2e;
+    color: #000000;
+    text-shadow: #ffffff 2px 2px;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+    display: block;
+}
+
+main{
+    width: 80%;
+    margin: 50px auto;
+}
+
+li{
+    list-style: none;
+}
+
+.lista-links{
+    position: absolute;
+    top: 50px;
+    right: 15%;
+}
+
+.lista-links li{
+    display: inline;
+}
+
+.menu{
+    display: inline;
+    margin: 20px 0;
+    padding: 10px 10px;
+    color: #000000;
+    text-decoration: none;
+    background: #f6dc2e;
+    box-shadow: #8d8d8d 3px 3px;
+}
+
+.pag-actual{
+    color: #fff;
+    background: #fe9327;
+    text-decoration: none;
+}
+
+.menu:hover{
+    color: #fff;
+    background: #fe9327;
+    text-decoration: underline;
+}
+
+section{
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 120px;
+    top: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: absolute;
+    left: 20px;
+    top: 180px;
+}
+
+footer{
+    height: 10px;
+    background: #f6dc2e;
+    width: 80%;
+    margin: 0 auto;
+}
