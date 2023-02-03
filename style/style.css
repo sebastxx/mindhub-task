@@ -47,10 +47,6 @@ ul{
     top: 0;
 }
 
-li{
-    list-style: none;
-}
-
 .menu{
     display: block;
     margin: 10px 0;
@@ -90,3 +86,4 @@ footer{
     width: 80%;
     margin: 0 auto;
 }
+

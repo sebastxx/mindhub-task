@@ -103,3 +103,7 @@ footer{
     width: 80%;
     margin: 0 auto;
 }
+
+.comentario{
+    text-decoration: underline;
+}
