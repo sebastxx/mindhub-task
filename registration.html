@@ -24,23 +24,100 @@
     </header>
     <section class="banner-registration"></section>
     <main>
-        <section>
-            <h2 class="titulo2">Registration Form</h2>
-            <ul>
-                <li>
-                    <h3>August 4</h3>
-                    <p>MDSL Fundraiser</p>
-                </li>
-                <li>
-                    <h3>August 16</h3>
-                    <p>Season Kick-off: Meet the Teams</p>
-                </li>
-                <li>
-                    <h3>September 1</h3>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </li>
-            </ul>
-        </section>
+        <form>
+            <label for="first-name">Player's First Name:</label>
+            <input type="text" id="first-name" name="first-name"><br><br>
+        
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name"><br><br>
+        
+            <label for="street-address">Street Address:</label>
+            <input type="text" id="street-address" name="street-address"><br><br>
+        
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        
+            <label for="zip-code">Zip Code:</label>
+            <input type="text" id="zip-code" name="zip-code"><br><br>
+        
+            <label for="birth-date">Birth Date:</label>
+            <input type="date" id="birth-date" name="birth-date"><br><br>
+        
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+        
+            <label for="grade">Grade:</label><br>
+            <select id="grade" name="grade">
+                <option value="pre-school">Pre School</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+                <option value="5th">5th</option>
+            </select><br><br>
+        
+            <label for="near-school">Which Elementary School do you live near?</label><br>
+            <label for="closest-school">Closest School:</label><br>
+            <input type="checkbox" id="aj-katzenmaier" name="closest-school" value="aj-katzenmaier">
+            <label for="aj-katzenmaier">AJ Katzenmaier</label><br>
+            <input type="checkbox" id="marjorie-p-hart" name="closest-school" value="marjorie-p-hart">
+            <label for="marjorie-p-hart">Marjorie P Hart</label><br>
+            <input type="checkbox" id="greenbay" name="closest-school" value="greenbay">
+            <label for="greenbay">Greenbay</label><br>
+            <input type="checkbox" id="north-elementary" name="closest-school" value="north-elementary">
+            <label for="north-elementary">North Elementary</label><br>
+            <input type="checkbox" id="howard-a-yaeger" name="howard-a-yaeger" value="howard-a-yaeger">
+            <label for="howard-a-yaeger">Howard A Yaeger</label><br>
+            <input type="checkbox" id="south-elementary" name="closest-school" value="south-elementary">
+            <label for="south-elementary">South Elementary</label><br><br>
+        
+            <label for="position">What position(s) do you normally play? (check all that apply)</label><br>
+            <input type="checkbox" id="forward" name="position" value="forward">
+            <label for="forward">Forward</label><br>
+            <input type="checkbox" id="midfield" name="position" value="midfield">
+            <label for="midfield">Midfield</label><br>
+            <input type="checkbox" id="defense" name="position" value="defense">
+            <label for="defense">Defense</label><br>
+            <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
+            <label for="goalkeeper">Goalkeeper</label><br><br>
+        
+            <label for="uniform-size">Uniform Size:</label><br>
+            <select id="uniform-size" name="uniform-size">
+                <option value="youth-small">Youth Small</option>
+                <option value="youth-medium">Youth Medium</option>
+                <option value="youth-large">Youth Large</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extra-large">Extra-Large</option>
+            </select><br><br>
+        
+            <div class="permission">
+                <p>Permission to Play:</p>
+                <p>
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated
+                    with hockey and in consideration for the "League" accepting the registrant for its hockey programs and
+                    activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated
+                    personnel and volunteers, including the facilities used for practices and games, against any claim by or on
+                    behalf of the registrant as a result of the registrant's participation in the program and/or being
+                    transported to or from MDHL sponsored activities, which transportation. By signing below, I hereby agree and
+                    authorize the above. In addition, by signing below, also acknowledge that I have read the cancellation
+                    policy and agree to its terms.
+                </p>
+                <label for="signature">Parent/Guardian Signature:</label>
+                <input type="text" id="signature" name="signature">
+                <br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+        
+            <input type="submit" value="Submit">
+        
+        </form>
     </main>
     <footer>
         
